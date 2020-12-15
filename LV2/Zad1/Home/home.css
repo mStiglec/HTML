@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    font-family: "Inter",sans-serif;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.74);
+    text-align: center;
+    font-size: 30px;
+}
+
+header p{
+    color:wheat;
+    margin: 0px;
+    padding: 10px;
+    height: 40px;
+}
+
+nav{
+    background-color: gray;
+    height: 50px;
+    display: flex;
+    text-align: center;
+}
+
+nav a{
+    padding:15px;
+    flex-grow: 1;
+    border:1px solid black;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.6;
+}
+
+a span:hover{
+    color: wheat;
+}
+
+#mainSection{
+    float: left;
+    background-color: gray;
+    width: 65%;
+    height:300px;
+    margin:15px;
+    border-radius: 10px;
+}
+
+#mainSection h1{
+    text-align: center;
+    margin-top:15px;
+    padding: 10px;
+}
+
+#mainSection p{
+    padding: 7px;
+}
+
+#pictureDiv img{
+    height:350px;
+    width: 800px;
+    float: left;
+    margin-left: 120px;
+    margin-top:10px;
+}
+
+aside{
+    float: right;
+    grid:150px 150px / 150px 150px;
+    grid-gap: 10px;
+    display:grid;
+    width: 300px;
+    text-align: center;
+    height:300px;
+    margin-right: 120px;
+    margin-top:10px;
+    
+}
+
+aside img{
+    width: 150px;
+    height: 150px;
+    border:10px solid rgba(0, 0, 255, 0.658);
+    
+}

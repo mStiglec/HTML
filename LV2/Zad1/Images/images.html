@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Home/home.css">
+    <script src="../jquery-3.5.1.js"></script>
+    <title>Document</title>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#noteImage").click(function (e) { 
+                var offset = $(this).offset();
+                //alert(e.clientX-offset.left);
+                //alert(e.clientY-offset.top);
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+    <header>
+        <p>This is a Images Page</p>
+    </header>
+
+    <nav>
+        <a href="../Home/home.html"><span>Home</span></a>
+        <a href="../Images/images.html"><span>Images</span></a>
+        <a href="../Projects/projects.html"><span>Projects</span></a>
+        <a href="../Social/social.html"><span>Social</span></a>
+    </nav>
+
+    <div id="pictureDiv">
+        <img id="noteImage" src="../Images/Computer.jpeg" alt="Workplace" usemap="#workspace">
+        <map name="workspace">
+            <area shape="rect" coords="590, 14, 773, 202" alt="Notebook" href="https://en.wikipedia.org/wiki/Computer">
+            <area shape="rect" coords="557, 82, 572, 202" alt="Pencil" href="https://en.wikipedia.org/wiki/Pencil">
+            <area shape="rect" coords="277, 226, 668, 332" alt="Keyboard" href="https://en.wikipedia.org/wiki/Computer_keyboard">
+            <area shape="rect" coords="698, 234, 769, 333" alt="PC Mouse" href="https://en.wikipedia.org/wiki/Computer_mouse">
+        </map>
+    </div>
+    <aside>
+        <a href="../Home/home.html" alt="Home">
+            <img src="../Images/home.jpg">
+        </a>
+        <a href="../Projects/projects.html" alt="Home">
+            <img src="../Images/project.jpg">
+        </a>
+        <a href="../Social/social.html" alt="Home">
+            <img src="../Images/social.png">
+        </a>
+        <a href="../Images/images.html" alt="Home">
+            <img src="../Images/test-img.jpg">
+        </a>
+    </aside>
+
+
+</body>
+</html>
