@@ -1,0 +1,43 @@
+ol{
+    border:2px solid black;
+    padding: 5px;
+    width: 250px;
+    list-style-position: inside;
+
+}
+ol li{
+    margin-bottom: 5px;
+    padding:3px 3px 3px 34px;
+    border: 1px solid red;
+}
+
+ol li:last-child{
+    margin-bottom: 0px;
+}
+
+ol li a{
+    text-decoration: black;
+    color:black;
+}
+
+ol li a:hover{
+    text-transform: uppercase;
+    color:red;
+    text-decoration: underline;
+}
+
+
+.England{
+    background:url(Slike/en-GB.png) 5px no-repeat;
+    background-color:rgba(0,255,0,0.75);
+}
+
+.Spain{
+    background:url(Slike/es.png) 5px no-repeat;
+    background-color:rgba(0,0,255,0.5);
+}
+
+.Germany{
+    background:url(Slike/de.png) 5px no-repeat;
+    background-color:rgba(255,0,0,0.25);
+}
